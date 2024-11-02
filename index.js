@@ -35,11 +35,11 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
 
-    const userCollection = client.db("khushbuwaalaDB").collection("users");
-    const itemCollection = client.db("khushbuwaalaDB").collection("items");
-    const reviewCollection = client.db("khushbuwaalaDB").collection("reviews");
-    const cartCollection = client.db("khushbuwaalaDB").collection("carts");
-    const orderCollection = client.db("khushbuwaalaDB").collection("orders");
+    const userCollection = client.db("bengaliansDB").collection("users");
+    const itemCollection = client.db("bengaliansDB").collection("items");
+    const reviewCollection = client.db("bengaliansDB").collection("reviews");
+    const cartCollection = client.db("bengaliansDB").collection("carts");
+    const orderCollection = client.db("bengaliansDB").collection("orders");
 
 
     app.post('/api/orders', async (req, res) => {
