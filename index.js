@@ -12,7 +12,8 @@ app.use(cors({
     origin: [
         'https://bengalians-lifestyle.web.app',
         'https://khushbuwaala-perfumes.web.app',
-        'https://khushbuwaala.com',
+        'https://bengalians.com',
+        'https://www.bengalians.com',
         'http://localhost:5173',
         'http://localhost:5174'
     ]
